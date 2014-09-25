@@ -44,6 +44,18 @@ table {
 }
 
 /* STYLES */
+@font-face {
+    font-family: 'edmondsansbold';
+    src: url('../fonts/edmondsans-bold-webfont.eot');
+    src: url('../fonts/edmondsans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/edmondsans-bold-webfont.woff2') format('woff2'),
+         url('../fonts/edmondsans-bold-webfont.woff') format('woff'),
+         url('../fonts/edmondsans-bold-webfont.ttf') format('truetype'),
+         url('../fonts/edmondsans-bold-webfont.svg#edmondsansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 body {
 	background: url('../img/pattern.png');
 	background-size: cover;
@@ -52,7 +64,7 @@ body {
 h1 {
 	font-size: 50px;
 	color: #5f5337;
-	font-family: "Raleway", sans-serif;
+	font-family: "edmondsansbold", sans-serif;
 	text-transform: uppercase;
 	font-weight: 700;
 	text-align: center;
