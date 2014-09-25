@@ -47,6 +47,7 @@ table {
 body {
 	background: url('../img/pattern.png');
 	background-size: cover;
+	height: 100%;
 }
 h1 {
 	font-size: 50px;
@@ -56,10 +57,10 @@ h1 {
 	font-weight: 700;
 	text-align: center;
 	line-height: 60px;
-	margin: 50px 0;
+	margin: 20px 0 0 0;
 }
 h2 {
-	font-size: 24px;
+	font-size: 18px;
 	font-family: "Raleway", sans-serif;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -67,8 +68,8 @@ h2 {
 	text-align: center;
 	letter-spacing: 1px;
 	height: 60px;
-	padding: 72px 0;
-	line-height: 30px;
+	padding: 50px 0;
+	line-height: 20px;
 }
 .container {
 	width: 100%;
@@ -76,25 +77,30 @@ h2 {
 	margin: 0 auto;
 	position: relative;
 }
-#content {
-	background: url('../img/beer.png') no-repeat center 268px;
+header .badge {
+	background: url('../img/comingsoon.png') no-repeat center;
+	min-height: 150px;
+	height: 150px;
+	width: auto;
+	background-size: contain;
+}
+.content {
+	background: url('../img/beer.png') no-repeat center top;
+	background-size: 75%;
 	height: 100%;
-	min-height: 950px;
+	min-height: 500px;
 	margin: 0 auto;
 	max-width: 450px;
-}
-#content #badge {
-	background: url('../img/comingsoon.png') no-repeat center;
-	height: 218px;
+	display: block;
+	position: relative;
 }
 footer {
 	background: #5f5337;
 	width: 100%;
 	min-height: 40px;
-	height: 100%;
 	padding: 10px 0;
 	bottom: 0;
-	float: left;
+	position: fixed;
 	text-align: center;
 }
 footer .container {
@@ -143,24 +149,11 @@ footer a {
 	}
 }
 @media screen and (max-width: 768px) {
-	#content {
-		background-size: 50%;
-		min-height: 800px;
-	}
 	footer .container {
-		width: 80%;
-	}
-}
-@media screen and (max-width: 600px) {
-	#content {
-		background-size: 60%;
+		width: 90%;
 	}
 }
 @media screen and (max-width: 480px) {
-	#content {
-		background-size: 70%;
-		min-height: 750px;
-	}
 	footer .social {
 		margin-right: 5%;
 	}
