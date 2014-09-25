@@ -80,6 +80,8 @@ h2 {
 	background: url('../img/beer.png') no-repeat center 268px;
 	height: 100%;
 	min-height: 950px;
+	margin: 0 auto;
+	max-width: 450px;
 }
 #content #badge {
 	background: url('../img/comingsoon.png') no-repeat center;
