@@ -136,19 +136,25 @@ footer .social {
 	width: 40px;
 	height: 40px;
 	float: left;
-	margin-right: 10%;
+	margin-right: 10%;  
 }
 footer .social.fb {
 	background: url('../img/facebook.png') no-repeat center;
 	background-size: contain;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/facebook.png', sizingMethod='scale');  
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/facebook.png', sizingMethod='scale')";
 }
 footer .social.twitter {
 	background: url('../img/twitter.png') no-repeat center;
 	background-size: contain;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/twitter.png', sizingMethod='scale');  
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/twitter.png', sizingMethod='scale')";
 }
 footer .social.insta {
 	background: url('../img/instagram.png') no-repeat center;
 	background-size: contain;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/instagram.png', sizingMethod='scale');  
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/instagram.png', sizingMethod='scale')";
 }
 footer a {
 	color: #efc316;
