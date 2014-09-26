@@ -95,10 +95,18 @@ header {
 	height: 270px;
 }
 header .badge {
-	background: url('../img/comingsoon.png') center center / auto 150px no-repeat;
 	min-height: 150px;
 	height: 150px;
 	width: auto;
+	text-align: center;
+}
+header .badge img {
+	width: auto;
+	height: auto;
+	max-height: 150px;
+	max-width: 150px;
+	position: relative;
+	top: -150px;
 }
 .content {
 	height: 100%;
@@ -137,14 +145,12 @@ footer .social {
 	float: left;
 	margin-right: 10%;  
 }
-footer .social.fb {
-	background: url('../img/facebook.png') 0 0 / auto 40px no-repeat;  
-}
-footer .social.twitter {
-	background: url('../img/twitter.png') 0 5px / auto 30px no-repeat;  
-}
-footer .social.insta {
-	background: url('../img/instagram.png') 0 0 / auto 40px no-repeat;  
+footer .social img {
+	width: auto;
+	max-width: 40px;
+	max-height: 40px;
+	height: auto;
+	vertical-align: middle;
 }
 footer a {
 	color: #efc316;
@@ -180,11 +186,13 @@ footer a {
 		line-height: 34px;
 	}
 	header .badge {
-		background: url('../img/comingsoon.png') center center / auto 100px no-repeat;
 		min-height: 100px;
 		height: 100px;
 		top: 50px;
 		position: relative;
+	}
+	header .badge img {
+		top: -130px;
 	}
 	h2 {
 		font-size: 12px;
@@ -221,16 +229,10 @@ footer a {
 /* Height Adjustments */
 @media screen and (min-height: 1024px) {
 	header .badge {
-		background: url('../img/comingsoon.png') center center / auto 200px no-repeat;
 		height: 200px;
 		min-height: 200px;
 		top: 40px;
 		position: relative;
-	}
-	h2 {
-		padding: 65px 0;
-		font-size: 24px;
-		line-height: 30px;
 	}
 }
 @media screen and (min-height: 900px){
